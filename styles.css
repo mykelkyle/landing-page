@@ -74,6 +74,11 @@ button {
   border: 2px solid #f9faf8;
 }
 
+#action-subtext {
+  font-size: 12px;
+  font-weight: 300;
+}
+
 /* -------------HEADER BOX ---------------- */
 
 .header-box {
@@ -84,7 +89,7 @@ button {
 .navigation {
   display: flex;
   justify-content: space-around;
-  gap: 150px;
+  gap: 200px;
   margin-bottom: 50px;
 }
 
@@ -98,11 +103,14 @@ button {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 40px 125px 125px;
+  margin: 40px 100px 125px;
 }
 
 .hero-text {
   width: 450px;
+}
+
+.hero-img {
 }
 
 /* --------------INFO BOX ----------------- */
@@ -158,8 +166,9 @@ button {
   margin: 60px 60px;
   min-width: 800px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  padding: 15px 0;
 }
 
 .action-text {
@@ -167,4 +176,5 @@ button {
 }
 
 .action-button {
+  margin-left: 50px;
 }
